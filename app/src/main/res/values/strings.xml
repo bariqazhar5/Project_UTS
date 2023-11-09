@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Project_UTS</string>
+    <string-array name="Suhu">
+        <item>Celcius (C)</item>
+        <item>Fahrenheit (F)</item>
+        <item>Kelvin (K) </item>
+
+    </string-array>
+    <string-array name="Weight">
+        <item>Kilogram (Kg)</item>
+        <item>Gram (g)</item>
+        <item>Milligram (mg) </item>
+        <item>Tonne (t) </item>
+        <item>Pound (lb) </item>
+    </string-array>
+
+    <string-array name="Speed">
+        <item>Kilometer/hour (Km/h)</item>
+        <item>Miles/hour (mph)</item>
+        <item>knot (kn) </item>
+    </string-array>
+
+
+    <string-array name="Volume">
+        <item>Litre (l)</item>
+        <item>Milliliter (ml) </item>
+        <item>Cubic Meter (m3)</item>
+    </string-array>
+
+    <string-array name="Time">
+        <item>Year (y)</item>
+        <item>Week (wk) </item>
+        <item>Day (d)</item>
+        <item>Hour (h)</item>
+        <item>Minute (min)</item>
+        <item>Seconds (s)</item>
+    </string-array>
+
+    <string-array name="Area">
+        <item>Square Km (Km2)</item>
+        <item>Square Meter (m2) </item>
+        <item>Acre (ac)</item>
+        <item>Hectare (ha)</item>
+    </string-array>
+
+    <string-array name="Data">
+        <item>Byte (B)</item>
+        <item>Kilobyte (KB) </item>
+        <item>Megabyte (MB)</item>
+        <item>Gigabyte (GB)</item>
+        <item>Terrabyte (TB)</item>
+        <item>Petabyte (PB)</item>
+    </string-array>
+
+    <string-array name="Dollar">
+        <item>Indonesia Rupiah (Rp)</item>
+        <item>United States Dollar (USD) </item>
+    </string-array>
+
+    <string-array name="Length">
+        <item>Kilometer (Km)</item>
+        <item>Meter (m) </item>
+        <item>Centimeter (cm)</item>
+        <item>Millimeter (mm)</item>
+        <item>Mile (mi)</item>
+        <item>Inchi (in)</item>
+    </string-array>
+
+
+</resources>

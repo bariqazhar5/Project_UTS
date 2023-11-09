@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".con_weight"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@drawable/bgcal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:gravity="center"
+        android:textSize="29dp"
+        android:textColor="@color/Hijautua"
+        android:paddingBottom="15dp"
+        android:fontFamily="@font/poppinsblack"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/bgkotak"
+        android:backgroundTint="@color/Hijautua"
+        >
+
+        <Spinner
+            android:id="@+id/SpWeight1"
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:entries="@array/Weight"
+            android:textAlignment="center"
+
+            />
+
+        <EditText
+            android:id="@+id/edtinputweight"
+            android:layout_width="241dp"
+            android:layout_height="match_parent"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white"
+            android:hint="Input"
+            android:textColorHint="@color/hijaumuda"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:fontFamily="@font/poppins"
+            />
+
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/bgkotak"
+        android:backgroundTint="@color/Hijautua"
+        >
+        <Spinner
+            android:id="@+id/SpWeight2"
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:textAlignment="center"
+            android:entries="@array/Weight"
+            />
+
+        <TextView
+            android:id="@+id/tvHasilWeight"
+            android:layout_width="243dp"
+            android:layout_height="100dp"
+            android:text="Hasil"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:paddingTop="30dp"
+            android:fontFamily="@font/poppins"/>
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <Button
+        android:id="@+id/buttonWeight"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Convert"
+        android:textSize="19dp"
+        android:fontFamily="@font/poppins"
+        android:background="@drawable/bgkotak"/>
+
+
+</LinearLayout>

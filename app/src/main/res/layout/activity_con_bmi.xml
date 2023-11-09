@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".con_bmi"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@drawable/bgcal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Body Mass Index"
+        android:layout_gravity="center"
+        android:textColor="@color/Hijautua"
+        android:textSize="29dp"
+        android:paddingBottom="10dp"
+        android:fontFamily="@font/poppins"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/bgkotak"
+        android:backgroundTint="@color/Hijautua"
+        android:gravity="center"
+        >
+
+
+        <EditText
+            android:id="@+id/edtinputberat"
+            android:layout_width="241dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:hint="Input Weight (kg)"
+            android:inputType="numberDecimal"
+            android:textColor="@color/hijaumuda"
+            android:textColorHint="@color/hijaumuda"
+            android:backgroundTint="@color/Hijautua"
+            android:fontFamily="@font/poppins"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/bgkotak"
+        android:backgroundTint="@color/Hijautua"
+        android:gravity="center"
+        >
+
+
+        <EditText
+            android:id="@+id/edtinputtinggi"
+            android:layout_width="241dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:hint="Input Height (M)"
+            android:inputType="numberDecimal"
+            android:textColor="@color/hijaumuda"
+            android:textColorHint="@color/hijaumuda"
+            android:backgroundTint="@color/Hijautua"
+            android:fontFamily="@font/poppins"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/bgkotak"
+        android:backgroundTint="@color/Hijautua"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tvHasilbmi"
+            android:layout_width="243dp"
+            android:layout_height="120dp"
+            android:text="Result"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/hijaumuda"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:paddingTop="30dp"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+
+    <Button
+        android:id="@+id/buttonbmi"
+        android:layout_width="200dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgkotak"
+        android:backgroundTint="@null"
+        android:fontFamily="@font/poppins"
+        android:text="Calculate"
+        android:textSize="19dp"
+        />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firstfragment"
+    android:padding="25dp"
+    android:background="#2c475a"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/bariq"
+        android:shape="oval"
+        android:layout_gravity="center"
+        android:background="@drawable/circle"
+        android:clipToOutline="true" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bariq Azhar M "
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This App was completed on 8/11/23"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/tvpindah2"
+        android:hint="-"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textAlignment="center"
+        />
+</LinearLayout>
